@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500;600&display=swap");
+
+.abilities-section {
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+}
+
+.abilities--heading {
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+}
+
+.languages-tools--container {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.languages--container,
+.tools--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.languages-heading,
+.tools-heading {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.languages-icons,
+.tools-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.languages-icons--top,
+.languages-icons--bottom {
+  display: flex;
+}
+.tools-icons--top,
+.tools-icons--bottom {
+  display: flex;
+}
+
+/* ICONS */
+
+.icon {
+  font-size: 3.5rem;
+}
+
+.icon-js {
+  border-radius: 11px;
+}
+
+.hover-fx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 15px;
+  width: 90px;
+  height: 90px;
+  line-height: 84px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: 300ms;
+}
+
+.hover-fx:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: "";
+  box-sizing: content-box;
+  box-shadow: 0 0 0 3px #fff;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 300ms;
+}
+
+.hover-fx:hover {
+  background-color: #fff;
+}
+
+.hover-fx:hover:after {
+  opacity: 1;
+  transform: scale(1.15);
+}
+
+.hover-html:hover {
+  color: #dc4b24;
+}
+.hover-css:hover {
+  color: #2ea3d5;
+}
+
+.hover-js:hover {
+  color: #ead51d;
+}
+
+.hover-bootstrap:hover {
+  color: #533979;
+}
+.hover-sass:hover {
+  color: #c36390;
+}
+
+.hover-react:hover {
+  color: #04ccf3;
+}
+
+.hover-figma:hover {
+  color: #08c57c;
+}
+
+.hover-git:hover {
+  color: #e84f31;
+}
+
+.hover-wordpress:hover {
+  color: #1f6e92;
+}
+
+.hover-postman:hover {
+  color: #f36734;
+}
+
+.hover-bash:hover {
+  color: #272e33;
+}
+
+.hover-vscode:hover {
+  color: #1b80c5;
+}

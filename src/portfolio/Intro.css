@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Rajdhani:wght@700&display=swap");
+
+.intro-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  position: relative;
+}
+
+.main-nav {
+  position: absolute;
+  left: 3%;
+  top: 30%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+.main-nav ul li {
+  font-size: 1.2rem;
+  margin: 0.8rem 0;
+  cursor: pointer;
+}
+
+.introduction {
+  font-family: "Rajdhani", sans-serif;
+  margin-left: 4rem;
+}
+
+.intro-hello {
+  font-size: 2rem;
+}
+
+.intro-name {
+  font-size: 4rem;
+  margin-left: 7.5rem;
+  margin-top: 1rem;
+}
+
+.intro-finish {
+  font-size: 2rem;
+  margin-left: 23.5rem;
+  margin-top: 1rem;
+}
