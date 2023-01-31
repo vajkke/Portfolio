@@ -11,7 +11,6 @@ import {
 } from "react-icons/fa";
 import {
   SiJavascript,
-  SiSublimetext,
   SiVisualstudiocode,
   SiPostman,
   SiGnubash,
