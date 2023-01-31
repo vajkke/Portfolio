@@ -15,10 +15,16 @@ const Project = (props) => {
       <div className="project-img--container">
         <img src={props.img} className="project-img" />
       </div>
-      {/* <p className="project-technologies">
-          Technologies used: Figma, HTML, CSS, JavaScript, Node.js
-        </p> */}
-      <button className="about-project">About</button>
+      <div className="technologies-used--container">
+        <p className="technologies-used--heading">Technologies used</p>
+        <p className="technologies-used--info">
+          {props.technologies.map((item, index) => (
+            <span key={index} className="technology-used">
+              {item}
+            </span>
+          ))}
+        </p>
+      </div>
     </div>
   );
 };

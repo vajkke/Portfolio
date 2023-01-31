@@ -14,6 +14,14 @@ const Projects = () => {
       heading={"MealRush"}
       img={mealRushImg}
       projectName={"mealRushProject--container project-container"}
+      technologies={[
+        "Figma",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Node.js",
+        "Postman",
+      ]}
     />,
     <Project
       link={"https://github.com/vajkke/hustler"}
@@ -21,6 +29,7 @@ const Projects = () => {
       heading={"Hustler"}
       img={hustlerImg}
       projectName={"hustlerProject--container project-container"}
+      technologies={["HTML5", "CSS3", "JavaScript"]}
     />,
     <Project
       link={"https://github.com/vajkke/Foqused"}
@@ -28,6 +37,7 @@ const Projects = () => {
       heading={"Foqused"}
       img={foqusedImg}
       projectName={"foqusedProject--container project-container"}
+      technologies={["Figma", "HTML5", "CSS3", "JavaScript"]}
     />,
   ];
 
