@@ -2,12 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Rajdhani:wght@700&display=swap");
 
 .contact-section {
-  margin-top: 18rem;
+  padding-top: 15rem;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-bottom: 7rem;
+  padding-bottom: 8rem;
 }
 
 .contact-heading {

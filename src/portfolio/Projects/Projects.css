@@ -6,7 +6,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 15rem 0;
+  padding-top: 15rem;
+  margin-top: 2rem;
 }
 
 .vertical-line1 {
