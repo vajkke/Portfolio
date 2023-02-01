@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Rajdhani:wght@700&display=swap");
 
 .contact-section {
-  margin-top: 15rem;
+  margin-top: 18rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,21 +21,25 @@
   width: 90%;
   max-width: 700px;
   height: 500px;
-  background-color: #2e5eaa;
+  background: rgba(46, 94, 170, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(46, 94, 170, 0.2);
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   padding: 2rem;
   position: relative;
-  border-radius: 13px;
 }
 
 .form-and-social {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  margin-top: 2rem;
+  margin-top: 5rem;
   width: 100%;
 }
 
@@ -66,13 +70,14 @@ form {
 }
 
 .submit-btn {
-  width: 90px;
+  width: 80px;
   height: 35px;
   border-radius: 11px;
   border: none;
   background-color: #e5e5e5;
   margin-top: 1rem;
   cursor: pointer;
+  font-size: 1.2rem;
 }
 
 .submit-btn:active {
