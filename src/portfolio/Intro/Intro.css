@@ -78,3 +78,31 @@ li:hover {
 li:hover::before {
   width: 100%;
 }
+
+@media (max-width: 480px) {
+  .intro-section {
+    margin-top: 3rem;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .introduction {
+    margin: 0;
+  }
+
+  .intro-hello {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+
+  .intro-name {
+    font-size: 2rem;
+    margin-left: 3rem;
+  }
+  .intro-finish {
+    font-size: 1rem;
+    margin-left: 10rem;
+  }
+}

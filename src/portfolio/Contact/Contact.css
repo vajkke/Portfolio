@@ -21,7 +21,7 @@
 .contact--container {
   width: 90%;
   max-width: 700px;
-  height: 500px;
+  height: auto;
   background: rgba(46, 94, 170, 0.3);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -117,4 +117,24 @@ form {
 input:focus,
 textarea:focus {
   outline: none;
+}
+
+@media (max-width: 480px) {
+  .contact-section {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+  }
+  .form-and-social {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    margin: 0;
+  }
+
+  .social-media--container {
+    margin: 0;
+    margin-top: 3rem;
+  }
 }

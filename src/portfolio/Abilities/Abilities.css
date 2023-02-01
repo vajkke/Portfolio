@@ -147,3 +147,36 @@
 .hover-vscode:hover {
   color: #1b80c5;
 }
+
+@media (max-width: 480px) {
+  .abilities-section {
+    padding-top: 8rem;
+  }
+
+  .languages-tools--container {
+    flex-direction: column;
+  }
+
+  .tools--container {
+    margin-top: 3rem;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+  }
+
+  .hover-fx {
+    width: 70px;
+    height: 70px;
+  }
+
+  .abilities--heading {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .languages-heading,
+  .tools-heading {
+    font-size: 1rem;
+  }
+}
