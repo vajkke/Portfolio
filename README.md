@@ -1,2 +1,1 @@
-
-### All Software Developers Need a Portfolio - ForrestKnight
+All Software Developers Need a Portfolio - ForrestKnight
