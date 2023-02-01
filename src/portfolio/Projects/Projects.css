@@ -6,8 +6,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 15rem;
-  margin-top: 2rem;
+  padding-top: 11rem;
+  margin-top: 6rem;
 }
 
 .vertical-line1 {
@@ -78,10 +78,14 @@
 .project-img--container {
   margin-bottom: 2rem;
   border-radius: 11px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .project-img {
   border-radius: 11px;
+  width: 100%;
+  max-width: 600px;
 }
 
 /* swiper */
