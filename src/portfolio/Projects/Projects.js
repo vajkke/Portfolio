@@ -37,7 +37,6 @@ const Projects = () => {
   return (
     <section className="projects-section">
       <h1 className="projects-heading">My best work</h1>
-      {/* <div className="vertical-line1"></div> */}
       <Slider slides={components} />
     </section>
   );
