@@ -60,3 +60,12 @@
     font-size: 0.9rem;
   }
 }
+
+@media (max-width: 800px) {
+  .about-section {
+    padding-top: 8rem;
+  }
+  .about--container {
+    width: 90%;
+  }
+}

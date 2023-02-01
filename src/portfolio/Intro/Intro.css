@@ -106,3 +106,32 @@ li:hover::before {
     margin-left: 10rem;
   }
 }
+
+@media (min-width: 800px) and (max-width: 1100px) {
+  .introduction {
+    margin-left: 3rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 800px) {
+  .main-nav {
+    display: none;
+  }
+  .introduction {
+    margin-left: 2rem;
+  }
+
+  .intro-hello {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+
+  .intro-name {
+    font-size: 3rem;
+    margin-left: 3rem;
+  }
+  .intro-finish {
+    font-size: 1.5rem;
+    margin-left: 10rem;
+  }
+}

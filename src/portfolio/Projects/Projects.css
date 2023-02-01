@@ -91,7 +91,7 @@
 /* swiper */
 
 .swiper {
-  width: 70%;
+  width: 60%;
   height: 100%;
 }
 
@@ -182,5 +182,24 @@
 
   .project-img--container {
     margin-top: 1rem;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1300px) {
+  .swiper {
+    width: 80%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 900px) {
+  .projects-section {
+    padding-top: 6rem;
+  }
+  .swiper {
+    width: 100%;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
   }
 }

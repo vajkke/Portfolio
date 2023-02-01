@@ -14,14 +14,7 @@ const Projects = () => {
       heading={"MealRush"}
       img={mealRushImg}
       projectName={"mealRushProject--container project-container"}
-      technologies={[
-        "Figma",
-        "HTML5",
-        "CSS3",
-        "JavaScript",
-        "Node.js",
-        "Postman",
-      ]}
+      technologies={["Figma", "HTML5", "CSS3", "JavaScript", "Node.js"]}
     />,
     <Project
       link={"https://github.com/vajkke/hustler"}
